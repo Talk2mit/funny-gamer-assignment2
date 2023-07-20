@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* shared styles */
@@ -18,13 +19,14 @@
     padding: 15px 35px;
     width: 10rem;
     text-align: center;
+    margin-right: 15px;
 }
 
 .btn2 {
     border-radius: .8rem;
-    background-color: aquamarine;
+    background: #4EC5F7;
     border: 0;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 700;
     padding: 15px 35px;
@@ -48,6 +50,7 @@ ul {
 
 .header-container ul li {
     margin-right: 15px;
+    color: rgb(14, 13, 13);
 }
 
 
@@ -55,7 +58,101 @@ ul {
     text-decoration: none;
 }
 
-.content{
+.content {
     display: flex;
     align-items: center;
+}
+
+.fllow {
+    display: flex;
+    gap: 7px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 180px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-title {
+    display: flex;
+    gap: 8px;
+}
+
+.header-title img {
+    width: 50px;
+    height: 30px;
+}
+
+.header-title h2 {
+
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+
+/* .banner-img {
+    width: 50%;
+    
+} */
+
+.banner-containt {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.banner-icon p {
+    color: #6e6488;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+.banner-btn {
+    margin-top: 20px;
+
+}
+
+.gamer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+.gamer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.gamer-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.gamer-container img {
+    width: 115%;
+    height: 489px;
 }

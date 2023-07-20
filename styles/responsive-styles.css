@@ -1,0 +1,25 @@
+@media only screen and (max-width: 425px){
+    .header-container, ul{
+        flex-direction: column;
+        gap: 6px;
+        
+    }
+    /* .banner-container{
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(1);
+    }
+    .banner-img{
+        width: auto;
+    } */
+    .gamer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .gamer-container img{
+        width: 1px;
+    }
+    .gamer-content, h2{
+        text-align: center;
+    }
+}
