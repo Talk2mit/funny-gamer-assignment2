@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+span{
+    color: rgb(222, 78, 78);
+}
+.btn1{
+    border-radius: .8rem;
+    background-color: rgb(162, 109, 212);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 35px;
+    width: 10rem;
+    text-align: center;
+}
+.btn2{
+    border-radius: .8rem;
+    background-color: aquamarine;
+    border: 0;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 35px;
+    width: 10rem;
+    text-align: center;
+
+}
+
+
+/* header styles start */
+header{
+    background-color: antiquewhite;
+    width: auto;
+    height: 4rem;
+    padding: 3rem 6rem;
+}
+.header-title{
+    font-size: 2rem;
+    font-weight: 200;
+}
+.header-container .header-content{
+    display: flex;
+    justify-content: space-between;
+}
