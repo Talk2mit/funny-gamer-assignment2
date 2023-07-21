@@ -1,25 +1,60 @@
-@media only screen and (max-width: 425px){
-    .header-container, ul{
+@media only screen and (max-width: 425px) {
+
+    .header-container,
+    ul {
         flex-direction: column;
         gap: 6px;
-        
+
     }
-    /* .banner-container{
+
+    .banner-container {
         flex-direction: column;
-        align-items: center;
-        grid-template-columns: repeat(1);
     }
-    .banner-img{
-        width: auto;
-    } */
-    .gamer-container{
+
+    .gamer-container {
         flex-direction: column;
-        text-align: center;
+
     }
-    .gamer-container img{
+
+    .gamer-container img {
         width: 1px;
     }
-    .gamer-content, h2{
-        text-align: center;
+
+    .paragraph {
+        align-items: center;
     }
+
+    .play-container {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-content>* {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    /* .footer-title{
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .footer-icon {
+        margin-bottom: 20px;
+    }
+
 }
+
+/* .category-container {
+        gap: 10px;
+      } */
+
+/* @media only screen and (max-width: 768px){
+    .card-container{
+        flex-wrap: wrap;
+    }
+} */
