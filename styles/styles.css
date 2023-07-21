@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@200;300;400;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
 * {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* shared styles */
+
+.parimary-color {
+    color: #c658f1;
+}
 
 .btn1 {
     padding: 21px 40px;
@@ -36,6 +45,11 @@
 
 }
 
+.header-container {
+    min-height: 50px;
+    background: #ffffffe7;
+}
+
 .header-container,
 ul {
     display: flex;
@@ -63,16 +77,17 @@ ul {
 .content {
     display: flex;
     align-items: center;
-    
+
 }
-/* .header-container,
+
+.header-container,
 .content ul li{
     text-align: center;
-} */
+}
 .follow {
-    width: 180px;
+    width: 150px;
     height: 40px;
-    /* text-align: center; */
+    padding: 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -120,7 +135,7 @@ ul {
 
 .banner-icon p {
     color: #6e6488;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -130,6 +145,14 @@ ul {
 
 .banner-title h1 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    font-weight: 800;
+}
+.banner-title h2{
+    font-size: 48px;
+    font-weight: 600;
 }
 
 /* banner container end */
@@ -139,6 +162,15 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin: 10px 30px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.funny-videos-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .gamer-content {
@@ -167,6 +199,13 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
 }
+.paragraph h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 600;
+}
 
 .paragraph {
     display: flex;
@@ -175,6 +214,7 @@ ul {
 }
 
 /* gamer container end */
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +248,15 @@ ul {
     width: 100%;
     height: 100%;
 }
+/* card styles end */
 
+.play-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 600;
+}
 .play-icon {
     position: absolute;
     top: 50%;
